@@ -165,7 +165,7 @@ label::after{
     right:20px;
     transition: transform 0.5s;
 }
-input[type="radio"]{
+input[type="checkbox"]{
     display:none;
 }
 .accordion .answer{
@@ -176,11 +176,11 @@ input[type="radio"]{
     overflow: hidden;
     transition:max-height 0.5s, padding 0.5s;
 }
-.accordion input[type="radio"]:checked + label + .answer{
+.accordion input[type="checkbox"]:checked + label + .answer{
     max-height: 600px;
     padding:30px 20px;
 }
-.accordion input[type="radio"]:checked + label::after{
+.accordion input[type="checkbox"]:checked + label::after{
     transform: rotate(135deg);
 }
 .faqs .signup{
